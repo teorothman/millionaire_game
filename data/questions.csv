@@ -1,21 +1,91 @@
-level,question,option_a,option_b,option_c,option_d
-1,What color are bananas?,Yellow,Purple,Red,Blue
-1,What is the capital of France?,Paris,London,Berlin,Madrid
-1,How many days are there in a week?,7,5,6,8
-1,What do cats say?,Meow,Woof,Oink,Moo
-1,What is 2 + 2?,4,5,3,6
-1,What is the largest mammal?,Blue Whale,Lion,Elephant,Giraffe
-1,Which planet is known as the Red Planet?,Mars,Venus,Jupiter,Saturn
-1,Who wrote 'Romeo and Juliet'?,William Shakespeare,Charles Dickens,Mark Twain,Jane Austen
-1,What do we breathe in to live?,Oxygen,Carbon Dioxide,Nitrogen,Hydrogen
-1,What is the freezing point of water?,0°C,100°C,50°C,10°C
-2,In which continent is the Sahara Desert located?,Africa,Asia,Europe,Australia
-2,What is the main ingredient in guacamole?,Avocado,Tomato,Cucumber,Carrot
-2,Which gas do plants primarily need for photosynthesis?,Carbon Dioxide,Oxygen,Helium,Nitrogen
-2,Who painted the Mona Lisa?,Leonardo da Vinci,Vincent Van Gogh,Pablo Picasso,Claude Monet
-2,What is the largest planet in our solar system?,Jupiter,Mars,Earth,Venus
-2,In the Harry Potter series, what is the name of Harry's owl?,Hedwig,Fluffy,Scabbers,Crookshanks
-2,What is the chemical symbol for water?,H2O,CO2,O2,NaCl
-2,Which city is known as the 'Big Apple'?,New York City,Los Angeles,Chicago,London
-2,What instrument measures atmospheric pressure?,Barometer,Thermometer,Anemometer,Hygrometer
-2,Who is the author of 'The Great Gatsby'?,F. Scott Fitzgerald,Ernest Hemingway,Mark Twain,John Steinbeck
+Level,Question,Option A,Option B,Option C,Option D,answer
+1,What is the primary color of apples?,Yellow,Green,Blue,Red,d
+1,What sound does a dog make?,Meow,Quack,Woof,Moo,c
+1,How many wheels does a bicycle have?,3,1,2,4,c
+1,What is the shape of a basketball?,Round,Triangle,Hexagon,Square,a
+1,What do bees produce?,Honey,Wool,Milk,Wine,a
+1,What is the opposite of 'cold'?,Soft,Hot,Light,Dark,b
+1,What is 10 divided by 2?,15,10,5,20,c
+1,What do you use to write on a blackboard?,Pencil,Pen,Chalk,Brush,c
+1,Which animal is known as the 'King of the Jungle'?,Lion,Elephant,Giraffe,Tiger,a
+1,What is the color of snow?,Grey,Blue,Pink,White,d
+2,Which planet is known as the 'Red Planet'?,Venus,Jupiter,Mars,Saturn,c
+2,In what state is the Grand Canyon located?,Nevada,Utah,Arizona,Colorado,c
+2,What gas do plants absorb from the atmosphere for photosynthesis?,Hydrogen,Carbon Dioxide,Nitrogen,Oxygen,b
+2,What is the largest mammal?,African Elephant,Giraffe,Blue Whale,White Rhino,c
+2,Who wrote 'Romeo and Juliet'?,Jane Austen,Charles Dickens,William Shakespeare,Leo Tolstoy,c
+2,What is the capital of Italy?,Rome,Madrid,Paris,Berlin,a
+2,Which element is liquid at room temperature?,Copper,Iron,Mercury,Gold,c
+2,Who painted the Mona Lisa?,Vincent van Gogh,Michelangelo,Raphael,Leonardo da Vinci,d
+2,What is the hardest mineral?,Quartz,Diamond,Ruby,Sapphire,b
+2,Which language is primarily spoken in Brazil?,Spanish,French,English,Portuguese,d
+3,Which composer wrote the Brandenburg Concertos?,Ludwig van Beethoven,Franz Schubert,Wolfgang Amadeus Mozart,Johann Sebastian Bach,d
+3,What is the capital of Canada?,Toronto,Montreal,Vancouver,Ottawa,d
+3,Who developed the theory of relativity?,Isaac Newton,Albert Einstein,Galileo Galilei,Niels Bohr,b
+3,What is the largest desert on Earth?,Arabian,Gobi,Sahara,Antarctic,c
+3,In which country is the ancient city of Machu Picchu?,Brazil,Peru,Chile,Mexico,b
+3,What is the chemical symbol for gold?,Fe,Ag,Au,Pb,c
+3,Who is the author of 'Pride and Prejudice'?,Jane Austen,Emily Brontë,William Makepeace Thackeray,Charles Dickens,a
+3,What is the smallest planet in our solar system?,Venus,Mars,Earth,Mercury,d
+3,Which organ in the human body produces insulin?,Liver,Pancreas,Heart,Kidney,b
+3,Who painted 'The Starry Night'?,Claude Monet,Salvador Dalí,Vincent van Gogh,Pablo Picasso,c
+4,Who was the first female Prime Minister of the United Kingdom?,Angela Merkel,Margaret Thatcher,Theresa May,Indira Gandhi,b
+4,What is the term for a group of stars that form a pattern?,Nebula,Cluster,Constellation,Galaxy,c
+4,Which of these elements is a noble gas?,Carbon,Neon,Hydrogen,Oxygen,b
+4,What is the name of the longest river in the world?,Amazon,Nile,Mississippi,Yangtze,a
+4,Who wrote the novel '1984'?,H.G. Wells,George Orwell,Ray Bradbury,Aldous Huxley,b
+4,What is the main ingredient in traditional Japanese miso soup?,Soybean Paste,Seaweed,Rice,Tofu,a
+4,Which country is the largest by land area?,Canada,China,United States,Russia,d
+4,What is the process by which plants release water vapor into the air?,Transpiration,Photosynthesis,Condensation,Respiration,a
+4,In computer science - what does 'CPU' stand for?,Critical Processing Unit,Computer Processing Unit,Central Performance Unit,Central Processing Unit,d
+4,Which vitamin is known as ascorbic acid?,Vitamin D,Vitamin C,Vitamin A,Vitamin B12,b
+5,What phenomenon explains the bending of light around obstacles?,Dispersion,Refraction,Diffraction,Reflection,c
+5,Who discovered penicillin?,Gregor Mendel,Louis Pasteur,Alexander Fleming,Marie Curie,c
+5,Which country has the oldest continuously operating university in the world?,China,Italy,Morocco,Egypt,c
+5,What is the name given to the study of earthquakes?,Seismology,Ecology,Meteorology,Geology,a
+5,Who was the first person to calculate the circumference of the Earth?,Ptolemy,Aristotle,Copernicus,Eratosthenes,d
+5,What is the powerhouse of the cell?,Mitochondria,Ribosome,Nucleus,Endoplasmic Reticulum,a
+5,Which of these books was written by Leo Tolstoy?,The Brothers Karamazov,Crime and Punishment,Anna Karenina,War and Peace,d
+5,What is the term for a fear of strangers or foreigners?,Xenophobia,Agoraphobia,Claustrophobia,Acrophobia,a
+5,In which city was the first stock exchange founded?,Paris,London,New York,Amsterdam,d
+5,What is the principle behind the operation of a jet engine?,Archimedes' Principle,Pascal's Law,Newton's Third Law,Bernoulli's Principle,c
+6,In which literary work is the concept of 'doublethink' introduced?,Fahrenheit 451,1984,Brave New World,The Handmaid's Tale,b
+6,Which mathematician is known for the last theorem that he conjectured but was only proved centuries after his death?,Isaac Newton,Pierre de Fermat,Carl Friedrich Gauss,Leonhard Euler,b
+6,What is the capital of Mongolia?,Astana,Seoul,Beijing,Ulaanbaatar,d
+6,Which element has the atomic number 92?,Radium,Uranium,Plutonium,Thorium,b
+6,Who is known as the father of microbiology?,Robert Koch,Louis Pasteur,Alexander Fleming,Antonie van Leeuwenhoek,d
+6,What was the primary purpose of the Silk Road?,Scientific exploration trail,Military conquest route,Trade route between Europe and Asia,Religious pilgrimage path,c
+6,Which philosopher introduced the concept of the 'categorical imperative'?,Friedrich Nietzsche,Plato,Socrates,Immanuel Kant,d
+6,What is the largest known structure in the Universe?,The Great Attractor,The Hercules-Corona Borealis Great Wall,The Sloan Great Wall,The Virgo Supercluster,a
+6,"In the field of computer science, what does 'AI' stand for?",Algorithmic Implementation,Advanced Interface,Automated Instruction,Artificial Intelligence,d
+6,Which hormone regulates blood sugar levels?,Glucagon,Adrenaline,Cortisol,Insulin,d
+7,What principle is the Heisenberg Uncertainty Principle related to?,Thermodynamics,General Relativity,Quantum Mechanics,Classical Mechanics,c
+7,Who composed the opera 'Don Giovanni'?,Giuseppe Verdi,Johann Sebastian Bach,Wolfgang Amadeus Mozart,Ludwig van Beethoven,c
+7,What is the term for the study of human societies and cultures and their development?,Psychology,Ethnography,Anthropology,Sociology,c
+7,Which of these compounds is used in photographic film and paper?,Silver Halide,Potassium Bromide,Sodium Chloride,Calcium Carbonate,a
+7,What is the name of the first programmable computer invented by Konrad Zuse?,ENIAC,Mark I,UNIVAC,Z3,d
+7,Who was the first woman to fly solo across the Atlantic Ocean?,Bessie Coleman,Amelia Earhart,Harriet Quimby,Valentina Tereshkova,b
+7,In which century did the Renaissance begin?,17th Century,15th Century,16th Century,14th Century,d
+7,What does DNA stand for?,Deoxiribonucleotide Acid,Deoxyribonucleic Acid,Dioxyribonucleic Acid,Dinucleotide Acid,b
+7,Who is considered the founder of modern political philosophy?,Plato,Thomas Hobbes,John Locke,Niccolò Machiavelli,b
+7,What astronomical event is theorized to mark the beginning of the Universe?,The Nebular Hypothesis,The Steady State Theory,The Big Bang,The Great Expansion,c
+8,Which scientist developed the first successful polio vaccine?,Albert Sabin,Jonas Salk,Louis Pasteur,Edward Jenner,b
+8,What is the phenomenon where light is slowed down as it passes through a medium?,Diffraction,Dispersion,Refraction,Absorption,c
+8,Who is known for the discovery of the electron?,Ernest Rutherford,J.J. Thomson,James Chadwick,Niels Bohr,b
+8,In which battle did Napoleon Bonaparte face his final defeat?,Battle of Waterloo,Battle of Leipzig,Battle of Borodino,Battle of Austerlitz,a
+8,What mathematical structure is used in computer science for tree data structures?,Array,LinkedList,Queue,Graph,d
+8,What is the capital of the Inca Empire?,Cusco,Machu Picchu,Lima,Quito,a
+8,Which author wrote 'The Interpretation of Dreams'?,Carl Jung,Sigmund Freud,Alfred Adler,Jean Piaget,b
+8,What principle does Archimedes' law relate to?,Leverage,Buoyancy,Centrifugal Force,Inertia,b
+8,Who was the first to propose the heliocentric model of the solar system?,Galileo Galilei,Nicolaus Copernicus,Johannes Kepler,Tycho Brahe,b
+8,What is the chemical formula for table salt?,NaCl,KCl,LiCl,MgCl2,a
+9,What is the primary mechanism of action for the drug Aspirin?,Blocks dopamine receptors,Inhibits serotonin reuptake,Inhibits cyclooxygenase,Activates GABA receptors,c
+9,In which philosophical work is Plato's Allegory of the Cave presented?,Meditations,The Republic,Beyond Good and Evil,Critique of Pure Reason,b
+9,Which physicist is credited with the invention of the laser?,Niels Bohr,Theodore Maiman,Albert Einstein,Enrico Fermi,b
+9,What was the first synthetic polymer?,Nylon,Polyethylene,PVC,Bakelite,d
+9,Who is considered the father of modern chemistry?,Antoine Lavoisier,Robert Boyle,Dmitri Mendeleev,John Dalton,a
+9,What is the process by which a cell divides into two new daughter cells?,Fission,Fusion,Mitosis,Meiosis,c
+9,Which work is considered Sigmund Freud's most significant?,The Ego and the Id,The Interpretation of Dreams,Totem and Taboo,Civilization and Its Discontents,b
+9,What is the term for the maximum displacement or distance moved by a point on a vibrating body or wave measured from its equilibrium position?,Wavelength,Frequency,Amplitude,Velocity,c
+9,Which artist is credited with developing linear perspective?,Leonardo da Vinci,Filippo Brunelleschi,Michelangelo,Raphael,b
+9,What is the study of the relationship between organisms and their environment?,Botany,Ecology,Biology,Zoology,b

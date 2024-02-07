@@ -25,7 +25,3 @@ class QuestionsRepository
     end
   end
 end
-
-test_repo = QuestionsRepository.new("/Users/teorothman/Coding/who_wants_to_be_a_millionaire/data/questions.csv")
-
-p test_repo.generate_random(2)

@@ -8,8 +8,14 @@ class QuestionsController
     @view = QuestionsView.new
   end
 
-  def generate_question
-    question = @repo.generate_random(1)
-    @view.display_question(question)
+  def generate_question(level)
+    question = @questions_repo.generate_random(level)
+    if @view.display_question(question) == question.answer
+      @view.congrats
+      true
+    else
+      @view.loser
+      false
+    end
   end
 end

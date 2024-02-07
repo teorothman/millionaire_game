@@ -1,51 +1,53 @@
-# rubocop:disable Metrics/MethodLength
-
-# TODO: implement the router of your app.
 class Router
-  def initialize(user_controller, questions_controller)
-    @user_controller = user_controller
+  def initialize(questions_controller, questions_repo, player_controller)
+    @questions_repo = questions_repo
     @questions_controller = questions_controller
+    @player_controller = player_controller
     @running = true
   end
 
   def run
-    puts "        Welcome!        "
-    puts "           --           "
-    puts " Are you ready to play? "
-    puts "  Who, wants to be...   "
-    sleep(1)
-    puts "    A millionaire       "
-    sleep(1)
-
-    while @running
-      display_question
-      action = gets.chomp.to_i
-      print `clear`
-      route_action(action)
+    level = 1
+    welcome_message
+    until @running == false
+      if level == 11
+        puts 'WOW! YOU ARE A MILLIONAIRE'
+        sleep(0.5)
+        puts "Thanks for playing //Teo"
+        save_progress(level - 1)
+        @player_controller.leaderboard
+      elsif @questions_controller.generate_question(level) == true
+        print `clear`
+        level += 1
+      else
+        print `clear`
+        @running = false
+        puts "Sorry, you lost, you reached level #{level}"
+        sleep(0.5)
+        puts "Thanks for playing //Teo"
+        save_progress(level - 1)
+        @player_controller.leaderboard
+      end
     end
+  end
+
+  def welcome_message
+    puts '        Welcome!        '
+    puts '           --           '
+    puts ' Are you ready to play? '
+    puts '  Who, wants to be...   '
+    sleep(1)
+    puts '    A millionaire       '
+    sleep(1)
+  end
+
+  def save_progress(level)
+    @player_controller.save(level)
   end
 
   private
 
-  def route_action(action)
-    case action
-    when 1 then @questions_controller.get_question
-    when 2 then @controller.score
-    when 8 then stop
-    else
-      puts "Please make a decision"
-    end
-  end
-
   def stop
     @running = false
   end
-
-  def display_question
-    puts ""
-    puts "1 - Next question"
-    puts "2 - Scoreboard"
-    puts "3 - Exit"
-  end
 end
-# rubocop:enable Metrics/MethodLength
