@@ -1,5 +1,5 @@
-require_relative '/Users/teorothman/Coding/who_wants_to_be_a_millionaire/repositories/questions_repository.rb'
-require_relative '/Users/teorothman/Coding/who_wants_to_be_a_millionaire/views/questions_view.rb'
+require_relative '../repositories/questions_repository.rb'
+require_relative '../views/questions_view.rb'
 
 # Class for the controller for questions
 class QuestionsController

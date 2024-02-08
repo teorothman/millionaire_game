@@ -1,4 +1,4 @@
-require_relative '/Users/teorothman/Coding/who_wants_to_be_a_millionaire/models/player'
+require_relative '../models/player'
 require 'csv'
 
 # Class for questions repo
